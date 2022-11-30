@@ -13,6 +13,7 @@ const transporter = nodemailer.createTransport({
 
 
 
+
 app.get('/sendEmailNotification', async (req, res) => {
       const mailOptions = {
       from: 'subbulakshmi15051995@gmail.com',
